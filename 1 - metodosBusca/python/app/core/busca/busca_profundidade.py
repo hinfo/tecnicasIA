@@ -1,7 +1,6 @@
 from collections import deque
 from .busca import Busca
 from .nodo import Nodo
-from .status import Status
 
 class BuscaProfundidade(Busca):
     def __init__(self, prof_max=40, mostra_status_console=None):

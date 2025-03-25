@@ -4,7 +4,7 @@ import time
 from app.core.busca.status import Status
 
 class MostraStatusConsole(threading.Thread):
-    def __init__(self, status: Status:Status = None):
+    def __init__(self, status:Status = None):
         super().__init__()
         self.status = status
         self.stop = False
