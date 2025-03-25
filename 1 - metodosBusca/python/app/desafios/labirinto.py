@@ -1,5 +1,4 @@
 import random
-from tkinter import S
 
 from app.core.busca.busca_largura import BuscaLargura
 from app.core.busca.busca_profundidade import BuscaProfundidade
